@@ -237,6 +237,12 @@ section p {
     margin: 8px 0 0;
 }
 
+/* VIEW MY WORK AS POSITION */
+.highlight {
+    transform: translate(0px, 10px);
+    margin-bottom: 20px;
+}
+
 /* FIT HOMEPAGE ON DESKTOP */
 @media (min-width: 769px) {
     .hero {
