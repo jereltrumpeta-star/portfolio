@@ -178,7 +178,7 @@ section p {
     width: 100%;
     max-width: 400px;
     margin: auto;
-    transform: translate(-100px, 0px);
+    transform: translate(-100px, -100px);
 }
 
 /* PORTRAIT SIZE AND POSITION */
