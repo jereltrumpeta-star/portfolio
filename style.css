@@ -115,8 +115,8 @@ a {
     height: 100%;
     object-fit: cover;
     object-position: center top;
-    opacity: 0.78;
-    filter: brightness(0.88);
+    opacity: 0.50;
+    filter: brightness 100%;
 }
 
 /* PORTFOLIO SECTIONS */
