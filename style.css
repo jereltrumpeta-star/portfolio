@@ -215,12 +215,16 @@ section p {
 }
 
 .hero-right #about p {
-    width: 100%;
+    width: max-content;
+    max-width: none;
     font-size: 14px;
     line-height: 1.6;
     text-align: center;
-    white-space: normal;
-    margin: 8px auto 0;
+    white-space: nowrap;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin: 8px 0 0;
 }
 
 /* FIT HOMEPAGE ON DESKTOP */
