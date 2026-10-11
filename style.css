@@ -211,15 +211,15 @@ section p {
 }
 
 .hero-right #about h2 {
-    font-size: 24px;
-    margin: auto;
     text-align: center;
 }
 
 .hero-right #about p {
+    text-align: center;
     font-size: 14px;
-    line-height: 1.5;
-    margin: auto;
+    line-height: 1.6;
+    width: 100%;
+    margin: 8px auto 0;
 }
 
 /* FIT HOMEPAGE ON DESKTOP */
