@@ -48,7 +48,7 @@ a {
     transition: color 0.3s;
 }
 
-.navbar nav a:hover {
+.navbar nav a: hover {
     color: #FF632B;
 }
 
@@ -178,7 +178,7 @@ section p {
     width: 100%;
     max-width: 400px;
     margin: auto;
-    transform: translate(-100px, -100px);
+    transform: translate(-100px, -50px);
 }
 
 /* PORTRAIT SIZE AND POSITION */
