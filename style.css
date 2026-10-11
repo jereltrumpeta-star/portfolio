@@ -206,19 +206,20 @@ section p {
     padding: 12px 0 0;
     width: 100%;
     max-width: 400px;
-    margin: 0 auto;
+    margin: auto;
     text-align: center;
 }
 
 .hero-right #about h2 {
     font-size: 24px;
-    margin: 0 0 8px;
+    margin: auto;
+    text-align: center;
 }
 
 .hero-right #about p {
     font-size: 14px;
     line-height: 1.5;
-    margin: 0;
+    margin: auto;
 }
 
 /* FIT HOMEPAGE ON DESKTOP */
