@@ -172,3 +172,70 @@ section p {
         padding: 70px 6%;
     }
 }
+
+
+/* RIGHT SIDE POSITION */
+.hero-right {
+    width: 100%;
+    max-width: 520px;
+    margin-left: auto;
+}
+
+/* PORTRAIT SIZE AND POSITION */
+.hero-image {
+    width: 100%;
+    height: 48vh;
+    min-height: 0;
+    overflow: hidden;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    object-position: center bottom;
+    opacity: 0.50;
+    filter: brightness(1);
+}
+
+/* ABOUT ME */
+.hero-right #about {
+    border-top: none;
+    padding: 12px 0 0;
+    width: 100%;
+    text-align: center;
+}
+
+.hero-right #about h2 {
+    font-size: 24px;
+    margin: 0 0 8px;
+}
+
+.hero-right #about p {
+    font-size: 14px;
+    line-height: 1.5;
+    margin: 0;
+}
+
+/* FIT HOMEPAGE ON DESKTOP */
+@media (min-width: 769px) {
+    .hero {
+        min-height: calc(100vh - 60px);
+        padding-right: 5%;
+    }
+}
+
+/* MOBILE LAYOUT */
+@media (max-width: 768px) {
+    .hero-right {
+        margin: 0 auto;
+    }
+
+    .hero-image {
+        height: 350px;
+        margin-top: 0;
+    }
+}
