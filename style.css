@@ -176,9 +176,8 @@ section p {
 /* RIGHT SIDE POSITION */
 .hero-right {
     width: 100%;
-    max-width: 520px;
-    margin-left: 100px;
-    margin-right: auto;
+    max-width: 400px;
+    margin: auto;
 }
 
 /* PORTRAIT SIZE AND POSITION */
@@ -206,6 +205,8 @@ section p {
     border-top: none;
     padding: 12px 0 0;
     width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
     text-align: center;
 }
 
